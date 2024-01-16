@@ -18,20 +18,20 @@ const generateColor = (name: string): string => {
   return color;
 };
 
-// Example user data
-const userData: { name: string; email: string }[] = [
-  { name: 'Alice', email: 'alice@example.com' },
-  { name: 'Bob', email: 'bob@example.com' },
-  { name: 'lice', email: 'lice@example.com' },
-  { name: 'Rob', email: 'Rob@example.com' },
-  { name: 'Ice', email: 'ice@example.com' },
-  { name: 'Tob', email: 'Tob@example.com' },
-  { name: 'Ace', email: 'ace@example.com' },
-  { name: 'Bose', email: 'bose@example.com' },
-  
+const userData = [
+  { name: 'John', email: 'john@example.com' },
+  { name: 'Mary', email: 'mary@example.com' },
+  { name: 'Michael', email: 'michael@example.com' },
+  { name: 'Sarah', email: 'sarah@example.com' },
+  { name: 'David', email: 'david@example.com' },
+  { name: 'Jennifer', email: 'jennifer@example.com' },
+  { name: 'James', email: 'james@example.com' },
+  { name: 'Elizabeth', email: 'elizabeth@example.com' },
+  { name: 'William', email: 'william@example.com' },
+  { name: 'Emily', email: 'emily@example.com' }
 ];
 
-// Convert it to an array of Chip objects
+
 const initialChips: Chip[] = userData.map((user, index) => ({
   name: user.name,
   email: user.email,
