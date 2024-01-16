@@ -31,13 +31,13 @@ The solution is implemented in React, without relying on any component-based lib
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/chip-component.git
+   git clone https://github.com/MundlapatiSivaSai/Zepto-Assignment.git
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd chip-component
+   cd Zepto-Assignment
    npm install
    ```
 
